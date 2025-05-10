@@ -14,6 +14,22 @@ body{
 	/* key for absolute positioning inside */
 }
 
+@media (max-width: 768px) {
+	#custom-player {
+		transform: translate(-50%, -140px);
+		/* pull it closer to visible zone */
+		padding: 4px 10px;
+	}
+
+	#time-display {
+		font-size: 11px;
+	}
+
+	#play-pause-btn {
+		font-size: 23px;
+	}
+}
+
 #custom-player {
 	position: absolute;
 	top: 50%;
