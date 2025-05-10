@@ -18,7 +18,7 @@ body{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -370px);
+	transform: translate(-48%, -370px);
 	/* move up above the centered magazine */
 	display: flex;
 	align-items: center;
@@ -431,7 +431,6 @@ body{
 	border: none;
 	font-size: 24px;
 	cursor: pointer;
-	padding-left: 0px;
 }
 
 #play-pause-btn:hover {
@@ -440,4 +439,5 @@ body{
 
 #time-display {
 	font-size: 16px;
+	padding-right: 6px;
 }
